@@ -10,6 +10,19 @@ class stack {
     }
   }
 
+
+  // class stack {
+  //   constructor() {
+  //     this.data = []
+  //   }
+  //   push(value) {
+  //     this.data.push(value)
+  //   }
+  //   pop() {
+  //     return this.data.pop()
+  //   }
+  // }
+
   // Test cases:
   const myStack = new stack
   myStack.push(3)

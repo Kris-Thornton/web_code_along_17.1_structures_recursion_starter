@@ -16,6 +16,16 @@ function search(head, value) {
   return false
 }
 
+
+// function search(head, value) {
+//   if (head === null) {
+//     return false
+//   }
+//   if (head.value === value) {
+//     return true
+//   }
+//   return search(head.next, value)
+// }
 // This function searches a linked list built from the provided listNode class, returning True if an element is found in the linked list. It returns False otherwise.
 
 // Convert it to a recursive solution, i.e., the search function must call itself instead of using a loop.
